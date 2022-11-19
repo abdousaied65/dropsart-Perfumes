@@ -1,0 +1,82 @@
+body {
+    font-family:Calibri;
+    margin:0px;
+    padding:0px; 
+
+}
+.topnav a {
+    border-bottom: 1px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 1px solid blue;
+}
+.success        {background: #E9F9E5 url('images/success.png') 10px  no-repeat;background-position: right; color: #1C8400;border: #B4E8AA solid 1px;font-weight:normal;}
+.error        {background: #F9E5E6 url('images/error.png') 10px  no-repeat;background-position: right; color: #B50007;border: #E8AAAD solid 1px;font-weight:normal;}
+.response-msg   {padding: 6px 10px 10px 45px;font-size: 14px;margin: 0 0 10px;font-family:tahoma, Helvetica, sans-serif;text-align: right;padding-right: 45px;}
+
+.box250 {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("box_base.gif.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    padding: 0 0 15px;
+    width: 200px;
+}
+.box250 ul {
+    -moz-background-inline-policy: continuous;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #D8D9DA;
+    border-style: solid;
+    border-width: 0 1px;
+    height: auto;
+    list-style: none outside none;
+    margin: 0;
+    padding: 15px 14px 0;
+    width: 170px;
+}
+.box250 ul li {
+    border-bottom: 1px solid #F0F0F0;
+    color: #444444;
+    font-size: 11px;
+    padding: 2px 0;
+    text-decoration: none;
+    word-spacing: -1px;
+}
+.box250 ul li a {
+    border-bottom-style: none;
+    color: #004488;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box250 ul li a {
+    border-bottom-style: none;
+    color: #004488;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box250 ul li a:hover {
+    border-bottom: thin inset #000000;
+}
+.box250 h3 {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("box.gif.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #333333;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 15px;
+}

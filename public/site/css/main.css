@@ -1,0 +1,84 @@
+ body {
+    font-family:Calibri;
+    margin:0px;
+    padding:0px; 
+
+}
+
+.topnav a {
+    border-bottom: 1px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 1px solid blue;
+}
+.success        {background: #E9F9E5 url('images/success.png') 10px  no-repeat;background-position: right; color: #1C8400;border: #B4E8AA solid 1px;font-weight:normal;}
+.error        {background: #F9E5E6 url('images/error.png') 10px  no-repeat;background-position: right; color: #B50007;border: #E8AAAD solid 1px;font-weight:normal;}
+.response-msg   {padding: 6px 10px 10px 45px;font-size: 14px;margin: 0 0 10px;font-family:tahoma, Helvetica, sans-serif;text-align: right;padding-right: 45px;}
+
+ 
+ html { overflow-x:auto; overflow-y:scroll; }
+ body, html {height: 100%}
+@font-face { font-family: cairo; src: url('font/cairo.ttf'); } 
+    .doaa { font-family: cairo; }
+@font-face { font-family: cairo-bold; src: url('font/cairo-bold.ttf'); } 
+    .abeer { font-family: cairo-bold; }
+@font-face { font-family: DINPro-Regular_13937; src: url('font//DINPro-Regular_13937.ttf'); } 
+    .abeer50 { font-family: DINPro-Regular_13937; }
+
+.container .content { position: absolute; bottom: 0; background: rgb(0, 0, 0); background: rgba(0, 0, 0,0.6); color: #FFD700; width: 100%; }
+.one { border-top: 1px solid #f0f0f0; }
+a { text-decoration:none; }
+a:hover { text-decoration: none; }
+.bgimg { background-image: url('images/header.jpg'); min-height: 40%; background-position: center; background-size: cover; }
+
+.containerg2 { position: absolute; width: 100%; top: 0; z-index: 1; }
+.dadmain { width: 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dad { background-color: white; width: 265px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dar { background-color: white; width: 265px; overflow: hidden; height: 30px; }
+.dadoffice { background-color: white; width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.daroffice { background-color: white; width: 220px; overflow: hidden; height: 30px; }
+.daddetails { background-color: white; width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dardetails { background-color: white; width: 160px; overflow: hidden; height: 30px; }
+.admindary { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.admindady { max-width: 350px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.awsome_input{ background: transparent; display: block; }
+.awsome_input_border{ display:inline-block; width:0px; height: 2px; background: blue; position: relative; top: -1px;
+  -webkit-transition: all ease-in-out .15s;
+  -o-transition: all ease-in-out .15s;
+  transition: all ease-in-out .15s;
+  float: right;
+}
+.awsome_input:focus{ outline: none; }
+.awsome_input:focus+.awsome_input_border{ width:100%; }
+.red { color: red; } 
+.green {color: green;}
+#inp { background-image: url('kimages/searchblue.png'); background-position: 10px 10px; background-repeat: no-repeat; width: 97%; padding: 12px 20px 12px 40px;
+border: 1px solid #ddd; margin-bottom: 12px; border-radius: 5px; }
+
+#lab { width:80px; display:inline-block; padding: 0; }
+#ali { height: 37px; width: 330px; border: 1px solid #ccc; border-radius: 5px; padding: 12px 8px 12px 60px; }
+#ali:focus { border-color: #66afe9; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, .6); outline: 0 none; }
+#myBtn { display: none; position: fixed; bottom: 20px; right: 30px; z-index: 99; color: red; cursor: pointer; }
+#grd { background: linear-gradient(to bottom, #0D272F, #2B7A99); border-top-right-radius: 15px; border-top-left-radius: 15px; }
+#grd1 { background: linear-gradient(to top, #0D272F, #2B7A99); border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
+#grrd { background: linear-gradient(to bottom, #0D272F, #2B7A99);  }    
+#grad { background: linear-gradient(to right, #336699, #01B1CB); }
+#grad1 { background: radial-gradient(white 50%, #f0f0f0); }
+#grad3 { background: linear-gradient(to bottom, #eee, #fff); }
+#grad4 { background: linear-gradient(to top, #eee, #fff); }    
+#grad2 { background: linear-gradient(to left, #ddd, #fff); } 
+#gradp { background: rgba(192, 192, 192, 0.25); border-top-right-radius: 10px; border-top-left-radius: 10px; }
+#gradp1 { background: rgba(255, 255, 255, 0.70); border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom: 1px solid #eee; border-left: 1px solid #eee; border-right: 1px solid #eee; }
+#gradpp { background: rgba(192, 192, 192, 0.3); } 
+#gradppp { background: rgba(250, 250, 250, 0.6); } 
+#gradppp1 { background: rgba(250, 250, 250, 0.5); }
+#archpp { background: rgba(192, 192, 192, 0.2); border-radius: 10px; } 
+#archppp { background: rgba(250, 250, 250, 0.3); } 
+#archppp1 { background: rgba(250, 250, 250, 0.8); border: 1px solid #eee; }
+#gradlogin { background: rgba(255, 255, 255, 0.8); border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; }
+.chip { display: inline-block; padding: 0 25px; height: 30px; color: #27A5C9; line-height: 30px; border-radius: 25px; background-color: #f8f8f8; }
+.chip img { float: left; margin: 6px 15px 0 -20px; height: 18px; width: 18px; border-radius: 50%; }
+#gcal5 { height: 5px; background-color: gray; background-image: linear-gradient(to right, white, teal, white); }
+#login { background: rgba(192, 192, 192, 0.3); border-top-right-radius: 10px; border-top-left-radius: 10px; }
+#login1 { background: rgba(255, 255, 255, 0.8); border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom: 1px solid #eee; border-left: 1px solid #eee; border-right: 1px solid #eee; }

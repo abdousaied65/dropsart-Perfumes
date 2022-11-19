@@ -1,0 +1,90 @@
+.Numbers{
+    font-family:Times New Roman;
+     font-size:15px;
+    color:#ff0000;
+    text-decoration:none;
+    font-weight:bold;
+    padding:5px
+
+}
+
+a.bittonNumbers:link {
+    font-family:Times New Roman;
+    font-size:15px;
+    color:#000000;
+    text-decoration:none;
+    font-weight:bold;
+    padding-right:5px;
+    padding-left:5px;
+}
+a.bittonNumbers:active {
+    font-family:Times New Roman;
+    font-size:15px;
+    color:#000000;
+    text-decoration:none;
+    font-weight:bold;
+    padding-right:5px;
+    padding-left:5px;
+}
+a.bittonNumbers:visited {
+    font-family:Times New Roman;
+    font-size:15px;
+    color:#000000;
+    text-decoration:none;
+    font-weight:bold;
+    padding-right:5px;
+    padding-left:5px;
+}
+a.bittonNumbers:hover {
+    font-family:Times New Roman;
+    font-size:15px;
+    color:#345e90;
+    text-decoration:none;
+    font-weight:bold;
+    padding-right:5px;
+    padding-left:5px;
+}
+.pagination{
+text-align:center;
+font-weight: Bold;
+font-size: 15px;
+font:Times New Roman;
+
+}
+
+.pagination ul{
+margin: 0;
+padding: 0;
+color: #808080;
+
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+padding: 7px 7px 7px 7px;
+}
+
+.pagination a{
+text-decoration: none; 
+}
+
+.pagination a, .pagination a:visited{
+text-decoration: none; 
+}
+
+
+
+.pagination li.disabled{
+font-weight: bold;
+color: #c0c0c0;
+    font-size:15px;
+
+}
+.pagination li.nextpage{
+font-weight: bold;
+color: #5AC0DE;
+    font-size:15px;
+
+}
